@@ -1,0 +1,331 @@
+/*Section conrard*/
+
+* , *:after , *:before{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Candara;
+    height: 2000px;
+}
+
+
+.container{
+    width:1100px;
+    margin: auto;
+}
+
+section.conrad{
+    width: 100%;
+    color: #fff;
+    height: 600px;
+    background: url("../images/slide-1-fs.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+header{
+    padding-top: 20px;
+
+}
+
+
+.header{
+    display:none;
+    width: 100%;
+    height: 75px;
+    background: #000;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 9999;
+    padding-left: 5%;
+}
+section.conrad div.logo{
+    width: 50%;
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+section.conrad nav{
+    width: 50%;
+    float: left;
+}
+
+section.conrad nav ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+section.conrad nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+section.conrad .clear{
+    clear: both;
+}
+
+section.conrad div.digital{
+    margin-top: 20%;
+   ;
+}
+
+section.conrad div.digital p span{
+    transition: all 0.5s ease-in-out;
+}
+
+section.conrad div.digital p:first-child{
+    font-size: 3em;
+    line-height: 1.5;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+section.conrad div.digital p:last-child:hover span{
+    display: inline-block;
+    transform: rotate(360deg);
+
+}
+
+
+/*about section*/
+section.about{
+    width:100%;
+    height: 520px;
+    padding: 50px 0 50px 0;
+}
+
+
+
+
+section.about div.creative ,
+section.about div.awesome,
+section.about div.office{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+
+section.about div.creative{
+    margin-left: 0;
+}
+
+section.about div.office img ,
+section.about div.awesome img{
+  width: 100%;
+}
+
+section.about div.creative h2{
+    font-size: 2em;
+    color: #444;
+    margin-bottom: 5%;
+
+}
+
+section.about div.creative p{
+    margin-bottom: 7%;
+    line-height: 1.5;
+}
+
+section.about div.creative p:nth-of-type(1) span{
+    font-weight: bold;
+   
+}
+
+section.about div.creative p:nth-of-type(1) {
+    
+    color: #444;
+}
+
+section.about div.creative p:nth-of-type(2) {
+    
+    color: #888;
+    line-height: 1.2;
+}
+
+section.about div.creative p:nth-of-type(3) a {
+    
+   text-decoration: none;
+   color:#777;
+   transition: all 0.5s ease-in-out;
+}
+
+section.about div.creative p:nth-of-type(3) a:hover {
+    
+    text-decoration: none;
+    color:#000;
+ }
+
+ section.about div.office h3 ,
+section.about div.awesome h3{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color:#666;
+}
+
+section.about div.office p ,
+section.about div.awesome p{
+    color:#999;
+    font-size: 14px;
+
+}
+
+
+section.about div.office > div:hover img ,
+section.about div.awesome > div:hover img{
+    transform: scale(1.2);
+}
+
+
+section.about div.office > div ,
+section.about div.awesome > div{
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+section.about div.awesome > div div.overlay,
+section.about div.office > div div.overlay
+
+{
+   background:rgba(0, 0,0, 0.5);
+   position: absolute;
+   top:0;
+   left:0;
+   width: 100%;
+   height: 100%;
+   display: none;
+
+}
+
+section.about div.office  img ,
+section.about div.awesome img{
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+section.about div.office > div:hover div.overlay ,
+section.about div.awesome > div:hover div.overlay{
+   display: block;
+}
+
+
+/*section folio*/
+
+section.folio{
+    width:100%;
+    background: url('../images/slide-7-fw.jpg');
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align:center;
+    color:#fff;
+    line-height: 1.7;
+    font-family: sans-serif;
+}
+
+section.folio div.folio_part{
+    padding-top: 20%;
+}
+section.folio div.folio_part h4 {
+    font-weight: normal;
+}
+
+section.folio div.folio_part p {
+    font-weight: bold;
+}
+
+section.folio div.folio_part span{
+    font-size: 13px;
+    font-style: italic;
+}
+
+section.folio div.folio_part p.two{
+    display: none;
+}
+
+section.folio div.folio_part button{
+    margin-top: 20px;
+    width: 200px;
+    padding:15px;
+    background:none;
+    border : 2px solid #fff;
+    color: #fff;
+    font-size:20px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    outline: 0;
+}
+section.folio div.folio_part button:hover{
+    background: #000;
+}
+ 
+ /*Section solution*/
+
+ section.solution{
+     width:100%;
+     height: 450px;
+     padding:70px 0 70px 0;
+ }
+
+ section.solution div.tailor{
+     width:50%;
+     float:left;
+ }
+
+ section.solution div.tailor h2{
+     font-size: 2.5em;
+     margin-bottom: 3%;
+ }
+
+ section.solution div.tailor p:nth-of-type(1){
+     color:#777;
+     font-size: 20px;
+     margin-bottom: 2%;
+     line-height: 1.5;
+ }
+
+ section.solution div.tailor p:nth-of-type(2){
+    color:#999;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+section.solution div.tailor p:nth-of-type(3) a{
+    color:#555;
+    text-decoration: none;
+}
+
+ section.solution div.accordion{
+    width:50%;
+    float:left;
+ }
+
+ section.solution div.accordion h3{
+    background: #444;
+    color:#fff;
+    padding: 10px;
+    cursor:pointer;
+    border:1px solid #fff;
+ }
+
+ section.solution div.accordion p{
+     background: #ddd;
+     color: #555;
+     padding: 10px;
+     display: none;
+ }
+
